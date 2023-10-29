@@ -33,3 +33,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest tests/login_tests.py -q 
+        pytest tests/tests/exam_tests.py -q 
