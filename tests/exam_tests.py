@@ -27,3 +27,6 @@ def test_google_logo():
     driver.get("https://www.google.com/")
     assert driver.find_element(By.CSS_SELECTOR,"img.lnXdpd").is_displayed()
     
+def test_strings():
+    assert 'ahmed'.capitalize() == 'Ahmed'
+    
