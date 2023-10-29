@@ -29,10 +29,7 @@ jobs:
         pip install flake8 pytest
         pip install pytest
         pip install selenium
-       
-    - name: test code 
-      run: |
-         pytest tests/login_tests.py -q 
+        
     - name: Test with pytest
       run: |
-        pytest
+        pytest tests/login_tests.py -q 
