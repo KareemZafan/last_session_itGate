@@ -22,3 +22,8 @@ def test_radio_buttons():
     age == '15 - 50'
     sleep(3)
     
+    
+def test_google_logo():
+    driver.get("https://www.google.com/")
+    assert driver.find_element(By.CSS_SELECTOR,"img.lnXdpd").is_displayed()
+    

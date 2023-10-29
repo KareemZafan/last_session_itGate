@@ -58,3 +58,5 @@ def test_invalid_login(user, pswd, message):
 
         text = driver.find_element(By.ID, "flash").text
         assert text.__contains__(message)
+
+
