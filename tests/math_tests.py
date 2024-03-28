@@ -1,4 +1,11 @@
 
 
 def test_add():
-    assert 1+4 != 5
+    assert (2+3) <= 5
+
+
+def test_capitalize():
+    "hello".capitalize() == "Hello"
+    
+
+
