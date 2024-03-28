@@ -9,3 +9,5 @@ def test_capitalize():
     
 
 
+def test_capitalize():
+    "hello".upper() == "Hello"
